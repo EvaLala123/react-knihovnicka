@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --seda: #adb5bd;
+  --zelena: #82c91e;
+  --modra: #1e90ff;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.library {
+  display: flex;
+  flex-wrap: wrap;
+}
